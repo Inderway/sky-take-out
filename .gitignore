@@ -1,0 +1,7 @@
+# 忽略编译后文件夹target，idea自带文件和测试文件
+**/target/
+.idea
+*.iml
+*.class
+*Test.java
+**/test/
