@@ -22,10 +22,10 @@ public class DishFlavor implements Serializable {
     //菜品id
     private Long dishId;
 
-    //口味名称
+    //口味名称 辣度、忌口、甜味、温度
     private String name;
 
-    //口味数据list
+    //口味数据list，String表示
     private String value;
 
 }

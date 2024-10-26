@@ -35,6 +35,7 @@ public class JwtUtil {
                 // 设置过期时间
                 .setExpiration(exp);
 
+        // compact()进行压缩和签名，生成真正的jwt
         return builder.compact();
     }
 

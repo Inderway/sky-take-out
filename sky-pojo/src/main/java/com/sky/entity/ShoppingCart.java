@@ -10,14 +10,14 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 /**
- * 购物车
+ * 购物车中的对象，一道菜品或一份套餐
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class ShoppingCart implements Serializable {
-
+    //
     private static final long serialVersionUID = 1L;
 
     private Long id;
